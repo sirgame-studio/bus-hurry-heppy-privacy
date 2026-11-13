@@ -33,36 +33,50 @@
   <div class="notice">This policy describes the Android version of Bus Fever Hurry! The game content is bundled inside the app and runs locally in an embedded WebView; it does not require a separately hosted game website.</div>
 
   <h2>Information stored on your device</h2>
-  <p>The game stores progress, level state, coins, unlocks, preferences, local leaderboard scores, and incomplete rewarded-ad coin-offer progress in the app's local storage. This information stays on your device and is not uploaded by the game's local save system. It remains until you clear the app's storage or uninstall the app. The app does not provide cloud synchronization or cross-device recovery.</p>
+  <p>The game stores progress, level state, coins, unlocks, preferences, and incomplete rewarded-ad coin-offer progress in the app's local storage. This game progress stays on your device and is not uploaded. It remains until you clear the app's storage or uninstall the app. The app does not provide cloud synchronization or cross-device recovery of game progress.</p>
+
+  <h2>Online leaderboard</h2>
+  <p>The app has an online leaderboard provided by Google Firebase. To take part, the app signs in with Firebase Anonymous Authentication, which creates a random user ID for your installation. No email address, phone number, or social account is used. The following leaderboard data is stored in Firebase Realtime Database, hosted by Google in the <code>asia-southeast1</code> (Singapore) region:</p>
+  <ul>
+    <li>the anonymous Firebase user ID;</li>
+    <li>a display name, generated automatically (for example <code>Player ABC123</code>) and optionally changed by you;</li>
+    <li>your best leaderboard score;</li>
+    <li>the time these entries were last updated.</li>
+  </ul>
+  <p>Your display name, score, and rank are visible to other players of the app. Display names are limited to 3–16 letters, numbers, spaces, underscores, and hyphens. Do not use your real name or other personal information as a display name.</p>
+  <p>Firebase may also process technical data such as IP address, device and app information, and diagnostics to provide authentication, security, and abuse prevention. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
 
   <h2>Advertising and consent</h2>
-  <p>The app uses Google AdMob to provide interstitial and rewarded advertisements. Google's User Messaging Platform may present consent choices where required before advertisements are requested. Google and its advertising partners may process data such as IP-derived approximate location, ad views and interactions, diagnostics, performance information, consent signals, and device or advertising identifiers where permitted. These data may be used for advertising, measurement, security, and fraud prevention.</p>
+  <p>The app uses Google AdMob to provide app open, interstitial, and rewarded advertisements. Google's User Messaging Platform may present consent choices where required before advertisements are requested. Google and its advertising partners may process data such as IP-derived approximate location, ad views and interactions, diagnostics, performance information, consent signals, and device or advertising identifiers where permitted. These data may be used for advertising, measurement, security, and fraud prevention.</p>
   <p>Learn more in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
 
   <h2>Data we do not request</h2>
-  <p>The app does not require an account and does not intentionally request your name, email address, contacts, camera, microphone, precise GPS location, payment details, chat messages, or user-generated content. Platform and advertising SDKs may still process technical data as described above.</p>
+  <p>The app does not require a registered account and does not request your real name, email address, contacts, camera, microphone, precise GPS location, payment details, or chat messages. The only text you can enter is the optional leaderboard display name described above. Platform, advertising, and Firebase SDKs may still process technical data as described above.</p>
 
   <h2>Security and retention</h2>
-  <p>Advertising traffic is transmitted using encrypted connections provided by Google. Local game data is protected by the Android app sandbox. Advertising providers retain data under their own policies. Local progress remains until app data is cleared or the app is uninstalled.</p>
+  <p>Advertising and leaderboard traffic is transmitted using encrypted connections provided by Google. Leaderboard database rules let each player change only their own entry, and other players can read only display names, scores, and ranks. Local game data is protected by the Android app sandbox. Advertising providers retain data under their own policies. Local progress remains until app data is cleared or the app is uninstalled.</p>
+  <p>Leaderboard entries remain until you ask us to delete them. Clearing the app's storage or uninstalling the app removes the anonymous sign-in from your device, so the app creates a new anonymous ID next time; the earlier leaderboard entry stays online until a deletion request is processed.</p>
 
   <h2>Your choices</h2>
   <ul>
     <li>You may decline or adjust consent choices when Google's consent form is shown, where available.</li>
     <li>You may reset or limit advertising identifiers through Android settings.</li>
     <li>You may delete local progress through Android Settings → Apps → Bus Fever Hurry! → Storage → Clear storage, or by uninstalling the app.</li>
+    <li>You may change your leaderboard display name at any time with the pencil button in the leaderboard.</li>
+    <li>You may ask us to delete your leaderboard data through the support contact below. Please include your current display name so we can find your entry; we may ask for a screenshot of the leaderboard showing it.</li>
   </ul>
 
   <h2>Children</h2>
-  <p>The current version is intended for a general audience and is not configured as a child-directed app. Parents and guardians should supervise children's use of the app and device-level advertising controls.</p>
+  <p>The current version is intended for a general audience and is not configured as a child-directed app. Leaderboard display names are visible to other players. Parents and guardians should supervise children's use of the app, the display names they choose, and device-level advertising controls.</p>
 
   <h2>Third-party services</h2>
-  <p>The app uses Google Mobile Ads and Google User Messaging Platform. This privacy-policy page is hosted by GitHub Pages, so GitHub may receive standard web request information when you visit this page. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>.</p>
+  <p>The app uses Google Mobile Ads, Google User Messaging Platform, Firebase Anonymous Authentication, and Firebase Realtime Database. This privacy-policy page is hosted by GitHub Pages, so GitHub may receive standard web request information when you visit this page. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>.</p>
 
   <h2>Policy changes</h2>
   <p>We may update this policy when features, advertising practices, or legal requirements change. The current effective date is shown at the top of this page.</p>
 
   <h2>Contact</h2>
-  <p>For privacy questions, contact the developer through the support contact published on the app's Google Play listing.</p>
+  <p>For privacy questions or leaderboard data deletion requests, contact the developer through the support contact published on the app's Google Play listing.</p>
 </main>
 </body>
 </html>
