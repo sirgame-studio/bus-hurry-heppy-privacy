@@ -1,5 +1,5 @@
-# Bus Hurry Heppy! Privacy Policy
+# Bus Fever Hurry! Privacy Policy
 
-Static privacy policy for the Android game **Bus Hurry Heppy!** (`com.busfever.game`).
+Static privacy policy for the Android game **Bus Fever Hurry!** (`com.sir.bushurryheppy`).
 
 Live page: https://sirgame-studio.github.io/bus-hurry-heppy-privacy/
